@@ -45,6 +45,6 @@ const anotherElement=(
 ReactDOM.createRoot(document.getElementById('root'))
 .render(
   
-   reactElement
+  <App />
 
 )

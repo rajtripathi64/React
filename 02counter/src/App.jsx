@@ -14,7 +14,8 @@ function App() {
     
     //counter=counter+1;
    if(counter<50){
-     setCounter(counter+1);
+     setCounter(prevcounter=>prevcounter+1);
+     setCounter(prevcounter=>prevcounter+1);
    }
 
     console.log("clicked", counter);

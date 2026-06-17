@@ -32,14 +32,14 @@ function App() {
 
     return (
         <div
-            className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
+            className="w-full h-screen flex flex-wrap justify-center items-top bg-cover bg-no-repeat "
             style={{
                 backgroundImage:
-                    "url('https://images.pexels.com/photos/36829074/pexels-photo-36829074.jpeg')",
+                    "url('https://images.pexels.com/photos/12899140/pexels-photo-12899140.jpeg')",
             }}
         >
             <div className="w-full">
-                <div className="w-full max-w-md mx-auto border border-gray-600 rounded-lg p-5 backdrop-blur-sm bg-white/30">
+                <div className="w-full max-w-md mx-auto border border-gray-600 rounded-lg p-5 backdrop-blur-sm bg-white/30 mt-5">
                     <form
                         onSubmit={(e) => {
                             e.preventDefault();

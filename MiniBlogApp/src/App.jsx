@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <h1>Ablog with app write</h1>
+      <h1>A blog with app write</h1>
     </>
   )
 }
